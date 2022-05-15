@@ -1,0 +1,59 @@
+
+.frame{
+	display:flex; 
+	/*讓下層水平排列*/
+	background-color: #faeeeb;
+	padding-bottom: 7px;
+	
+}
+.logo{
+	width: 16px;
+	height: 16px;
+}
+.left{
+	display: flex;
+	background-color: #faeeeb;
+	flex: none; /*固定配置*/
+	width: 50%;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.right{
+	display: flex;
+	justify-content:flex-right;
+	background-color: #faeeeb;
+	flex: auto;
+	border-bottom: 1px solid #2c494e;
+
+}
+
+.item{
+	background-color: #faeeeb;
+	flex: none;
+	width: 30%;
+	margin-right: 5px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+
+.welcome{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	height: 300px;
+	background-color: #faeeeb;
+}
+
+.text{
+	font-size: 30px;
+	width: 300px;
+	text-align: center;
+}
+
+.pic{
+	display: flex;
+  	justify-content: center;
+}
